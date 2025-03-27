@@ -33,7 +33,7 @@ conda install langchain-community -n ai-agent
 ```shell
 conda install jupyterlab -n ai-agent -c conda-forge
 ```
-运行jupyter：`jupyter lab`
+运行jupyter：`nohup jupyter lab > jupyter-lab.log 2>&1 &`
 
 ### 本地模型安装
 #### 第一步：安装ollama
