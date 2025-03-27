@@ -13,13 +13,15 @@ conda create -n ai-agent python=3.12
 
 conda activate ai-agent
 ```
-#### 第三步：使用anaconda安装langchain
+#### 第三步：使用anaconda安装langchain和langgraph
 具体指令：
 ```shell
 # 安装langchain基础库：
 conda install langchain -n ai-agent -c conda-forge
 # 安装langchain附加库：
-conda install langchain-community -n ai-agent
+conda install langchain-community -n ai-agent -c conda-forge
+# 安装langgraph基础库：
+conda install langgraph -n ai-agent -c conda-forege
 ```
 常用库介绍
 |python库|作用|备注|
