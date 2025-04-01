@@ -1,4 +1,6 @@
 .ipynb_checkpoints/
 .chroma_db/
+chroma_db_3/
+anaconda_projects/
 
 jupyter-lab.log
